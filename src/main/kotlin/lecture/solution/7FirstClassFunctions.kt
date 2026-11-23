@@ -6,7 +6,7 @@ package lecture.solution
  * There are multiple ways to do so.
  *
  * ## Tasks:
- * - Store an anonymous function using the `fun` keyword in a immutable variable.
+ * - Store an anonymous function using the `fun` keyword in an immutable variable.
  *  It should take a [String] and return the [String] in lowercase.
  *  Read a [String] and store it in a variable `input`. Print it after applying this function.
  * - Store [String.uppercase] in a variable using a lambda. Use an explicit type annotation.
@@ -33,7 +33,7 @@ fun main() {
     val input = readln()
     println(lower(input))
 
-     val upper: (String) -> String = { text -> text.uppercase() }
+    val upper: (String) -> String = { text -> text.uppercase() }
     val length = { text: String -> text.length }
     val drop: (String).(Int) -> String = String::drop
     val dropFromInput: (Int) -> String = input::drop

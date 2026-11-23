@@ -11,7 +11,7 @@ package homework
  * 2) Items
  *    - Model each item with its name and price.
  *    - Create an `ItemId` value class wrapping a [String] (e.g., ItemId("apple"))
- *      to indentify items.
+ *      to identify items.
  *
  * 3) Shop
  *    - Store a `Map<ItemId, Item>` in the shop.
